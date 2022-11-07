@@ -6,7 +6,8 @@ const PORT = process.env.PORT || 8008;
 
 app.get('/', (req, res) => {
   res.send({
-    hi: 'Trigun'
+    hi: 'Trigun',
+    bye: 'joshi'
   })
 })
 
